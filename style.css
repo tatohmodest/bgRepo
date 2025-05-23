@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+.active {
+    display: block;
+}
+.transitioning{
+    transition: all ease-in-out 0.5s;
+
+}

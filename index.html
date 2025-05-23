@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close" />
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="/bg/dist/style.css">
+</head>
+<body>
+    
+    <header class=" flex fixed w-full z-50 top-0 m-0 left-0 bg-slate-900 p-3 text-white justify-between px-[40px] items-center">
+        <img class="md:hidden" id="menu" src="/bg/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="menu">
+        <div class="font-bold text-xl ">Modest Wilton</div>
+        
+        <nav id="nav" class="transitioning hidden min-h-screen md:min-h-auto absolute top-0 z-50 md:relative bg-slate-200 md:bg-slate-900 md:text-white text-slate-900  left-0 pl-5 w-[200px] md:w-auto  md:flex justify-center">
+         <div class="flex justify-end items-center p-3"> <span id="close"  class="material-symbols-outlined cursor-pointer ">close</span></div> 
+
+            <ul class="flex  flex-col md:flex-row justify-start mt-20 md:mt-0 gap-4 md:justify-center md:items-center items-start ">
+                <li>Home</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>contact Me</li>
+            </ul>
+        </nav>
+
+        <div class="flex justify-center items-center">
+            <button class="text-center transitioning hover:bg-slate-200 transition-bg duration-95 ease-in-out hover:text-black border rounded-md font-bold p-2 ">Lets Chat</button>
+        </div>
+    </header>
+
+    <main class="mt-[65px] w-full pt-9 relative">
+        <img class="absolute top-0 w-full left-0 m-0 -z-3 object-cover h-[80vh] md:h-[80vh]" src="https://ats.org/wp-content/uploads/2020/04/Index-High-Tech-Future.jpg" alt="helo">
+        <div class="ml-[40px] w-[400px] md:w-[600px] bg-white justify-self-left flex flex-col border-2  p-3 md:p-7 gap-4">
+            <p>Explore the world of tech with me </p>
+            <h1 class="text-4xl md:text-5xl font-bold">
+                Tatoh MOdest Wilton
+            </h1>
+            <p>Full Stack web dev, Cyber Security enthusiate, Data anaylst</p>
+           <button class="border p-2 w-[200px]">Take me to him</button>
+        </div>
+       
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
